@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="button" id="open-modal">Відкрити модалку</button>
+    <div class="backdrop">
+      <div class="modal">
+        <h2>Модальне вікно</h2>
+        <button type="button" class="button" id="close-modal">Закрити</button>
+      </div>
+    </div>
+    <!-- task3 -->
+    <form>
+      <p>Choose a color:</p>
+      <label>
+        <input type="radio" name="color" value="red" checked /> Red
+      </label>
+      <label> <input type="radio" name="color" value="white" /> White </label>
+      <label> <input type="radio" name="color" value="green" /> Green </label>
+    </form>
+    <!-- task4 -->
+
+    <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+    <h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
+    <input
+      type="text"
+      id="validation-input"
+      data-length="6"
+      placeholder="введи 6 символів"
+    />
+    <!-- task5 -->
+    <input id="font-size-control" type="range" />
+    <br />
+    <span id="text">абракадабра!</span>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
